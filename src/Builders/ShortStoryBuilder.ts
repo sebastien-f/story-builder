@@ -23,6 +23,4 @@ class ShortStoryBuilder extends StoryBuilderBase {
     }
 }
 
-export {
-    ShortStoryBuilder,
-}
+export { ShortStoryBuilder }

@@ -1,6 +1,6 @@
 import { IFactoryProvider } from "./interfaces";
 declare class StoryBuilder {
-    private factory;
+    protected factory: IFactoryProvider;
     setFactoryProvider(factory: IFactoryProvider): void;
 }
-export { StoryBuilder, };
+export { StoryBuilder };

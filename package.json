@@ -1,6 +1,6 @@
 {
-  "name": "story-builder",
-  "version": "0.0.1",
+  "name": "@sebastien-f/story-builder",
+  "version": "0.0.6",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sebastien-f/story-builder/issues"
   },
-  "homepage": "https://github.com/sebastien-f/story-builder#readme"
+  "homepage": "https://github.com/sebastien-f/story-builder#readme",
+  "dependencies": {
+    "conditions-resolver": "^0.0.1"
+  }
 }

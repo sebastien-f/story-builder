@@ -6,4 +6,4 @@ declare class ShortStoryBuilder extends StoryBuilderBase {
     sequences: Array<ISequenceBuilder>;
     sequence<TSequenceData>(sequenceData: TSequenceData, callback: TypedBuilderCallback<ISequenceBuilder>): ShortStoryBuilder;
 }
-export { ShortStoryBuilder, };
+export { ShortStoryBuilder };
