@@ -1,0 +1,23 @@
+{
+  "name": "story-builder",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastien-f/story-builder.git"
+  },
+  "keywords": [
+    "story",
+    "builder"
+  ],
+  "author": "sebastien-f",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/sebastien-f/story-builder/issues"
+  },
+  "homepage": "https://github.com/sebastien-f/story-builder#readme"
+}
