@@ -14,6 +14,7 @@ export interface IFactoryProvider {
     sequenceBuilderFactory<T extends ISequenceBuilder, U>(sequenceData: U): T;
 
     twistBuilderFactory<T extends IPlotTwistBuilder, U>(twistData:U) : T;
+    setTwistBuilderFactory(factory: (twistData:any) =>IPlotTwistBuilder): void;
 }
 
 export interface IActorActionBuilder {

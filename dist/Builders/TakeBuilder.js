@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.DefaultTakeBuilder = void 0;
 var DefaultTakeBuilder = /** @class */ (function () {
     function DefaultTakeBuilder(takeData, factoryProvider) {
         this.takeData = takeData;

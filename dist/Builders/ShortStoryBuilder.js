@@ -13,6 +13,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ShortStoryBuilder = void 0;
 var DefaultFactoryProvider_1 = require("./DefaultFactoryProvider");
 var StoryBuilderBase_1 = require("./StoryBuilderBase");
 /** StoryBuilder that has only a collection of sequences */

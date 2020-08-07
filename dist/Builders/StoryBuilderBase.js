@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.StoryBuilderBase = void 0;
 var StoryBuilderBase = /** @class */ (function () {
     function StoryBuilderBase() {
     }
@@ -7,7 +8,7 @@ var StoryBuilderBase = /** @class */ (function () {
         get: function () {
             return this._factory;
         },
-        enumerable: true,
+        enumerable: false,
         configurable: true
     });
     StoryBuilderBase.prototype.setFactoryProvider = function (factory) {
