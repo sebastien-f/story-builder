@@ -15,7 +15,7 @@ export {
 }
 
 class DefaultActorActionBuilder extends ActorActionBuilder {
-    public constructor(protected actorData:any, protected factory:IFactoryProvider) {
+    public constructor(public actorData:any, protected factory:IFactoryProvider) {
         super();
     }
 

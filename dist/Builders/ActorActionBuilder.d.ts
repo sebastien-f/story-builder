@@ -6,7 +6,7 @@ declare abstract class ActorActionBuilder {
 }
 export { ActorActionBuilder, };
 declare class DefaultActorActionBuilder extends ActorActionBuilder {
-    protected actorData: any;
+    actorData: any;
     protected factory: IFactoryProvider;
     constructor(actorData: any, factory: IFactoryProvider);
     says(text: string): IActorActionBuilder;
